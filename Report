@@ -1,0 +1,77 @@
+Customer churn refers to the loss of customers who discontinue a company's product or service. Understanding the reasons behind customer churn is essential for improving customer satisfaction and increasing business revenue. This project analyzes customer data to identify factors influencing churn and suggests strategies to improve customer retention.
+
+## Objective
+
+The primary objective of this project is to analyze customer behavior, identify patterns associated with subscription cancellations, and provide actionable recommendations to reduce customer churn.
+
+## Tools Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Google Colab
+
+## Dataset Description
+
+The dataset contains customer information including demographic details, subscription information, contract types, monthly charges, tenure, and churn status. These attributes help in understanding customer behavior and identifying churn patterns.
+
+## Methodology
+
+ 1. Data Collection
+
+The customer churn dataset was collected and imported into the analysis environment.
+
+ 2. Data Cleaning
+
+The dataset was checked for missing values, duplicate records, and inconsistencies. Necessary preprocessing steps were applied to ensure data quality.
+
+ 3. Exploratory Data Analysis (EDA)
+
+Various statistical and visual analysis techniques were used to explore customer behavior and identify trends related to churn.
+
+ 4. Visualization
+
+Several charts and graphs were created to compare churn status with customer attributes such as contract type, tenure, and monthly charges.
+
+## Analysis and Findings
+
+### Contract Type and Churn
+
+Customers with month-to-month contracts exhibited significantly higher churn rates compared to customers with one-year or two-year contracts.
+
+### Tenure and Churn
+
+Customers with shorter subscription durations were more likely to cancel their services. Long-term customers demonstrated higher loyalty and lower churn rates.
+
+### Monthly Charges and Churn
+
+Customers paying higher monthly charges showed a greater tendency to churn than customers with lower monthly expenses.
+
+### Customer Engagement
+
+Lower engagement levels and shorter customer relationships were strongly associated with customer attrition.
+
+## Key Insights
+
+* Month-to-month contracts contribute to higher churn rates.
+* New customers are more likely to leave than long-term customers.
+* High monthly charges increase the likelihood of churn.
+* Customer loyalty improves with longer subscription periods.
+
+## Recommendations
+
+1. Offer discounts and incentives for long-term contracts.
+2. Improve customer onboarding and support during the initial months.
+3. Implement loyalty and rewards programs.
+4. Identify high-risk customers and provide personalized retention offers.
+5. Enhance customer engagement through regular communication and feedback collection.
+
+## Conclusion
+
+The Customer Churn Analysis successfully identified important factors influencing customer attrition. Contract type, tenure, and monthly charges were found to be major contributors to churn. By implementing targeted retention strategies and improving customer engagement, organizations can reduce churn rates and increase customer satisfaction and profitability.
+
+## Outcome
+
+The project provides valuable business insights that can help organizations make data-driven decisions to improve customer retention and reduce revenue loss caused by customer churn.
